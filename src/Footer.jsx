@@ -7,12 +7,14 @@ export default function Footer() {
           <p>546 W Compton Blvd</p>
           <p>Compton, CA 90220</p>
           <p>Phone: <a href="tel:+13107382397">(310) 738-2397</a></p>
-            <p><a href="https://www.yelp.com/biz/lets-eat-compton?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" target="_blank" rel="noreferrer">⭐ Review us on Yelp</a></p>        
+            <p><a href="https://www.yelp.com/biz/lets-eat-compton?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" target="_blank" rel="noreferrer">⭐ Review us on Yelp</a></p>
+            <p><a href="https://www.instagram.com/letseatsoulfoodlosangeles/" target="_blank" rel="noreferrer">📷 @letseatsoulfoodlosangeles</a></p>
         </div>
         
         <div className="footer-section">
           <h3>Hours of Operation</h3>
-          <p>Wed - Sun: 12:00 PM - 8:00 PM</p>
+          <p>Wed - Sat: 12:00 PM - 8:00 PM</p>
+          <p>Sun: 12:00 PM - 6:00 PM</p>
           <p>Mon - Tue: Closed</p>
         </div>
         
