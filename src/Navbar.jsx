@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from './assets/hero.png';
+import logo from './assets/nav-logo.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +28,7 @@ export default function Navbar() {
       <ul id="primary-navigation" className={`nav-links ${isOpen ? 'nav-links-open' : ''}`}>
         <li><a href="#story" onClick={closeMenu}>Our Story</a></li>
         <li><a href="#menu" onClick={closeMenu}>Menu</a></li>
+        <li><a href="#reviews" onClick={closeMenu}>Reviews</a></li>
         <li><a href="#location" onClick={closeMenu}>Location & Hours</a></li>
       </ul>
     </nav>

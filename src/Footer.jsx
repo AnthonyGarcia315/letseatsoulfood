@@ -7,6 +7,7 @@ export default function Footer() {
           <p>546 W Compton Blvd</p>
           <p>Compton, CA 90220</p>
           <p>Phone: <a href="tel:+13107382397">(310) 738-2397</a></p>
+          <p><a href="https://www.google.com/maps/dir/?api=1&destination=546+W+Compton+Blvd,+Compton,+CA+90220" target="_blank" rel="noreferrer">📍 Get Directions</a></p>
             <p><a href="https://www.yelp.com/biz/lets-eat-compton?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" target="_blank" rel="noreferrer">⭐ Review us on Yelp</a></p>
             <p><a href="https://www.instagram.com/letseatsoulfoodlosangeles/" target="_blank" rel="noreferrer">📷 @letseatsoulfoodlosangeles</a></p>
         </div>
@@ -31,6 +32,19 @@ export default function Footer() {
           <p>Cards Accepted</p>
         </div>
       </div>
+
+      <div className="map-embed map-embed-full">
+        <iframe
+          title="Let's Eat Soul Food location map"
+          src="https://www.google.com/maps?q=546+W+Compton+Blvd,+Compton,+CA+90220&output=embed"
+          width="100%"
+          height="320"
+          style={{ border: 0 }}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} Let's Eat Soul Food. All rights reserved.</p>
       </div>

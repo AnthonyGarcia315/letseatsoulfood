@@ -1,6 +1,6 @@
 export default function MenuItem({ name, description, price, image }) {
   return (
-    <div className="menu-card">
+    <div className="menu-card reveal">
       {/* We'll assume your images are in a folder called 'assets' */}
       <img
         src={image}
